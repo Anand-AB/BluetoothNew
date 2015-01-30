@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.imrokraft.bluetoothnew.MainActivity" >
+
+     <item
+        android:id="@+id/action_scan_devices"
+        android:orderInCategory="100"
+        android:title="Connect Devices"/>
+    
+    
+    <item
+        android:id="@+id/action_turn_on"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:title="Turn on/off bluetooth"/>
+
+</menu>
